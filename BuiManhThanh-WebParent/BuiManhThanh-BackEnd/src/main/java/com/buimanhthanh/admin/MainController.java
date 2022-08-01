@@ -9,4 +9,8 @@ public class MainController {
 	public String homePage() {
 		return "index";
 	}
+	@GetMapping("/trang-chu")
+	public String homePage1() {
+		return "index";
+	}
 }
